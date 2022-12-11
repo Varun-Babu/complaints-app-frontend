@@ -1,0 +1,22 @@
+
+<br>
+<div class="container">
+    <div class="row">
+        <div class="col col-12 col-sm-12 col-md-12 col-lg-12 col-xl-12 col-xxl-12">
+            <div class="row g-3">
+                <div class="col col-12 col-sm-4 col-md-4 col-lg-3 col-xxl-3 col-xxl-3" *ngFor="let i of data">  
+                    <div class="card text-white bg-dark mb-3" >
+                        <img class="img-top" width="200" height="200"src="https://png.pngitem.com/pimgs/s/146-1468281_profile-icon-png-transparent-profile-picture-icon-png.png" class="card-img-top" alt="...">
+                        <div class="card-body">
+                          <h5 class="card-title">{{i.name}}</h5>
+                          <p class="card-text">{{i.username}}</p>
+                          <p class="card-text">{{i.email}}</p>
+                          <p class="card-text">{{i.complaint}}</p>
+                          
+                        </div>
+                      </div>    
+                </div>
+                </div>
+            </div>
+        </div>
+    </div>

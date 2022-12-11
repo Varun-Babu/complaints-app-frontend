@@ -1,0 +1,17 @@
+<app-navbar></app-navbar>
+<br>
+<div class=container>
+<div class=row>
+    <div class="col col-12 col-sm-12 col-md-12 col-lg-12 col-xl-12 col-xxl-12">
+<div class="row g-3">
+    <div class="form-floating">
+        <textarea name="complaint" [(ngModel)]="complaint" class="form-control" placeholder="Leave a comment here" id="floatingTextarea"></textarea>
+        <label for="floatingTextarea">Complaint</label>
+      </div>
+    <div class="col-12 col-sm-12 col-md-12 col-lg-12 col-xl-12 col-xxl-12">
+        <button (click)="readValue()" class="btn btn-dark">Submit</button>
+    </div>
+</div>
+    </div>
+</div>
+</div>
